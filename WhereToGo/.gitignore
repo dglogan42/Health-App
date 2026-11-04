@@ -8,6 +8,5 @@
 .DS_Store
 captures/
 *.apk
-!where-to-go.apk
 *.aab
 *.hprof

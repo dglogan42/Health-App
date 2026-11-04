@@ -612,4 +612,15 @@ object Directory {
             categoryOk && (q.isEmpty() || text.contains(q))
         }
     }
+
+    fun named(name: String): Service = services.first { it.name == name }
+
+    val emergency: Service get() = named("Emergency services")
+    val clinic: Service get() = named("Te Rawhiti")
+    val afterHours: Service get() = named("After-hours mental health")
+    val needToTalk: Service get() = named("Need to talk? 1737")
+    val healthline: Service get() = named("Healthline")
+
+    fun phonePathways(): List<Service> =
+        services.filter { it.phones.isNotEmpty() || it.texts.isNotEmpty() }
 }

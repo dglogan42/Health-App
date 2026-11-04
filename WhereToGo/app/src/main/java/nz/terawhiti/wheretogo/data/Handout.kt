@@ -8,7 +8,22 @@ object Handout {
     const val TITLE = "Treating Myself Well"
     const val SUBTITLE = "A gentle discussion guide for our mental health group"
     const val INTRO =
-        "There are no right or wrong answers — just honest reflection. Choose the questions that speak to you most."
+        "There are no right or wrong answers — just honest reflection. Pick the questions that feel okay today, and skip the rest."
+    const val PERSON_HINT = "You can answer on this phone. Every question is optional."
+    const val WORKER_HINT = "Read the considerations before you use the questions with someone."
+    const val SOFT_LEAD_IN = "Go gently. This is reflection, not a test."
+    const val SKILLS_OPENER =
+        "If you want something small to try while you wait or settle, here are the short skills from the handout."
+    const val SKILLS_LIMIT =
+        "These are the short skills named on the where-to-go page. They are not treatment, and they are not a reason to delay a call for help."
+    const val KINDNESS_TITLE = "A small kindness, if you want one"
+    const val KINDNESS_BODY =
+        "These are comforts for an ordinary moment — not treatment, and not a reason to delay a call for help."
+    val kindnesses = listOf(
+        "Warm drink, two quiet minutes",
+        "Slow shoulder stretch",
+        "A small snack from the cupboard, only if eating feels okay",
+    )
     const val ASSET = "treating-myself-well.pdf"
 
     val personConsiderations = listOf(

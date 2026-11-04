@@ -9,6 +9,5 @@
 *.iml
 captures/
 *.apk
-!WhereToGo/where-to-go.apk
 *.aab
 *.hprof

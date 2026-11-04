@@ -11,7 +11,7 @@ This is not a Health New Zealand product, and it does not give medical advice. I
 - `IMG_20261102_144514.jpg` is the Te Rawhiti “Where to go?” poster. Its QR code opens https://sites.google.com/view/terawhiti-wheretogo
 - `scan_1793755332.pdf` is the group handout, *Treating Myself Well*. A copy is in the app as `WhereToGo/app/src/main/assets/treating-myself-well.pdf`
 - `faqs-disability-special-considerations-flag.pdf` is the disability special-considerations note kept with these sources
-- `HealthNZ.html`, `OpenStreetMap.html`, `firstport.html`, `claybeds.html`, `starlink.html`, and `SimplyAble.html` are saved pages. SimplyAble is the same save as Claybeds
+- `HealthNZ.html`, `OpenStreetMap.html`, and `claybeds.html` are the saved pages that were not duplicates. The installable app is `WhereToGo/where-to-go.apk`
 
 The Guide tab in the app follows the handout. Answers stay on the phone until they are cleared. The original scan can be opened from that screen.
 

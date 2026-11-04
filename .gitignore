@@ -1,0 +1,13 @@
+.DS_Store
+
+# Android Studio and Gradle
+**/.gradle/
+**/.kotlin/
+**/build/
+**/local.properties
+**/.idea/
+*.iml
+captures/
+*.apk
+*.aab
+*.hprof
